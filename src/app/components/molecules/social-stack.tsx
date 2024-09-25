@@ -1,0 +1,37 @@
+import { IconLink } from "@tabler/icons-react";
+import LinkButton from "../atoms/link-button";
+
+interface socialNetworkStackProps {
+  socialNetworks: {
+    name: string;
+    url: string;
+    icon?: React.ReactNode;
+  }[];
+}
+
+/**
+ * This molecule component is a social network stack that displays the social networks of the user.
+ * It accepts an array of social networks with the name, url, and an optional icon for each.
+ *
+ * @param {socialNetworkStackProps} socialNetworks - The social networks of the user.
+ * @returns {React.ReactNode} The social network stack.
+ */
+const SocialNetworkStack = ({ socialNetworks }: socialNetworkStackProps) => {
+  return (
+    <article className="flex flex-col gap-2 items-center">
+      <h3 className="font-bold text-lg">Links</h3>
+      {socialNetworks.map((socialNetwork, index) => (
+        <LinkButton
+          key={index}
+          href={socialNetwork.url}
+          isOnlyIcon
+          icon={socialNetwork.icon || <IconLink />}
+        >
+          {socialNetwork.name}
+        </LinkButton>
+      ))}
+    </article>
+  );
+};
+
+export default SocialNetworkStack;
