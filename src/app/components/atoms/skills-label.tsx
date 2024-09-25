@@ -15,7 +15,7 @@ const SkillsLabel = ({ skills }: SkillsLabelProps) => {
   const labelString = skills.join(", ");
 
   return (
-    <div className="flex items-center gap-4 py-1 px-2 rounded-full">
+    <div className="flex items-center gap-4">
       <IconLayersIntersect size={18} className="text-primary" />
       <p>{labelString}</p>
     </div>
