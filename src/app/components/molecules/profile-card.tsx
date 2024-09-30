@@ -31,7 +31,7 @@ const ProfileCard = ({ name, role, profile }: ProfileCardProps) => {
       <hr />
       <div className="flex flex-col gap-3">
         {Object.entries(profile).map(([key, value], index) => (
-          <div key={index} className="flex justify-between">
+          <div key={`card-prop-${index}`} className="flex justify-between">
             <span className="font-medium capitalize">{key}:</span>
             <span
               className={value === "available" ? "text-green capitalize" : ""}

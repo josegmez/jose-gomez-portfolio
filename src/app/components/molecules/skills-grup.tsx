@@ -33,12 +33,12 @@ const SkillsGroup = ({
   return (
     <article className={twMerge("flex flex-col gap-3", className)}>
       <h3 className="font-medium text-lg">{title}</h3>
-      <ul className="flex flex-col gap-2   p-0">
+      <ul className="flex flex-col gap-2 p-0">
         {skillsGroup.map((skills, index) => {
           if (!withProgress) {
             return (
               <SkillsLabel
-                key={index}
+                key={`skills-${index}`}
                 skills={skills.map((skill) => skill.title)}
               />
             );
