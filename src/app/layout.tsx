@@ -11,7 +11,7 @@ const Inter = localFont({
 export const metadata: Metadata = {
   title: "👨‍💻Dev - Jose Gómez",
   description:
-    "Programar es mi pasión y disfruto hacerlo tanto en entornos laborales como por hobby, me genera gran curiosidad todo lo relacionado con el desarrollo web.",
+    "I'm a Full Stack Developer passionate about learning and creating new things. I'm studying Systems Engineering at the Universidad de Antioquia.",
 };
 
 export default function RootLayout({
