@@ -1,5 +1,5 @@
-import SectionTitle from "../molecules/section-title";
-import ExperienceCard from "../molecules/experience-card";
+import SectionTitle from "@molecules/section-title";
+import ExperienceCard from "@molecules/experience-card";
 
 const EDUCATION_EXPERIENCES = [
   {

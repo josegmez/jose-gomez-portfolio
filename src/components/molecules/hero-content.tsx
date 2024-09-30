@@ -1,5 +1,5 @@
 import { twMerge } from "tailwind-merge";
-import LinkButton from "../atoms/link-button";
+import LinkButton from "@atoms/link-button";
 import { IconArrowRight } from "@tabler/icons-react";
 
 interface HeroContentProps {

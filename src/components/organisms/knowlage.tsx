@@ -1,6 +1,6 @@
 import { IconCode } from "@tabler/icons-react";
-import KnowlageCard from "../molecules/knowlage-card";
-import SectionTitle from "../molecules/section-title";
+import KnowlageCard from "@molecules/knowlage-card";
+import SectionTitle from "@molecules/section-title";
 
 const KNOWLAGES = [
   {

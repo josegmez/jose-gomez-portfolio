@@ -1,5 +1,5 @@
 import Image from "next/image";
-import HeroContent from "../molecules/hero-content";
+import HeroContent from "@molecules/hero-content";
 
 /**
  * This organism represents the hero section of the page.

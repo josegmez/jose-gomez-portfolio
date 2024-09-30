@@ -1,4 +1,4 @@
-import CircleAvatar from "../atoms/circle-avatar";
+import CircleAvatar from "@atoms/circle-avatar";
 
 interface ProfileCardProps {
   name: string;

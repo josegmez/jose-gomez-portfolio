@@ -1,5 +1,5 @@
 import { IconLink } from "@tabler/icons-react";
-import LinkButton from "../atoms/link-button";
+import LinkButton from "@atoms/link-button";
 
 interface socialNetworkStackProps {
   socialNetworks: {

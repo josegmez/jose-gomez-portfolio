@@ -6,7 +6,7 @@ import {
   IconBrandTwitter,
   IconBrandYoutube,
 } from "@tabler/icons-react";
-import SocialNetworkStack from "../molecules/social-stack";
+import SocialNetworkStack from "@molecules/social-stack";
 
 const SOCIAL_NETWORKS = [
   {

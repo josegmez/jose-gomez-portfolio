@@ -1,5 +1,5 @@
-import ProfileCard from "../molecules/profile-card";
-import SkillsGroup from "../molecules/skills-grup";
+import ProfileCard from "@molecules/profile-card";
+import SkillsGroup from "@molecules/skills-grup";
 
 const LANGUAGES = [
   {

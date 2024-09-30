@@ -1,6 +1,6 @@
 import { twMerge } from "tailwind-merge";
-import SkillsLabel from "../atoms/skills-label";
-import ProgressBar from "../atoms/progress-bar";
+import SkillsLabel from "@atoms/skills-label";
+import ProgressBar from "@atoms/progress-bar";
 
 interface Skills {
   title: string;

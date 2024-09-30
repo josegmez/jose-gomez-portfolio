@@ -1,5 +1,5 @@
-import SectionTitle from "../molecules/section-title";
-import ProjectCard from "../molecules/project-card";
+import SectionTitle from "@molecules/section-title";
+import ProjectCard from "@molecules/project-card";
 
 const PROJECTS = [
   {

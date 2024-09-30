@@ -1,5 +1,5 @@
 import { twMerge } from "tailwind-merge";
-import DateLabel from "../atoms/date-range";
+import DateLabel from "@atoms/date-range";
 
 interface ExperienceCardProps {
   company: string;
