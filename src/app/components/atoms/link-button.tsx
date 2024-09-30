@@ -22,6 +22,7 @@ const LinkButton = ({ href, isOnlyIcon, icon, children }: LinkButtonProps) => {
   return (
     <Link
       href={href}
+      target="_blank"
       className={twMerge(
         "flex items-center justify-center gap-2 py-4 px-8 bg-primary uppercase font-medium w-fit",
         isOnlyIcon ? "rounded-full aspect-square p-3" : "rounded-md"
