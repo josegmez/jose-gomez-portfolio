@@ -18,11 +18,10 @@ interface socialNetworkStackProps {
  */
 const SocialNetworkStack = ({ socialNetworks }: socialNetworkStackProps) => {
   return (
-    <article className="flex flex-col gap-2 items-center">
-      <h3 className="font-bold text-lg">Links</h3>
+    <article className="flex flex-col gap-4 items-center">
       {socialNetworks.map((socialNetwork, index) => (
         <LinkButton
-          key={index}
+          key={`social-network-${index}`}
           href={socialNetwork.url}
           isOnlyIcon
           icon={socialNetwork.icon || <IconLink />}
