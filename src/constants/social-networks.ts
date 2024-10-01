@@ -1,28 +1,11 @@
 import {
-  IconBrandFacebook,
   IconBrandGithub,
-  IconBrandInstagram,
   IconBrandLinkedin,
-  IconBrandTwitter,
   IconBrandYoutube,
+  IconWorld,
 } from "@tabler/icons-react";
 
 export const SOCIAL_NETWORKS = [
-  {
-    name: "Facebook",
-    url: "https://www.facebook.com/",
-    icon: IconBrandFacebook,
-  },
-  {
-    name: "Instagram",
-    url: "https://www.instagram.com/",
-    icon: IconBrandInstagram,
-  },
-  {
-    name: "Twitter",
-    url: "https://twitter.com/",
-    icon: IconBrandTwitter,
-  },
   {
     name: "GitHub",
     url: "https://github.com/josegmez",
@@ -37,5 +20,10 @@ export const SOCIAL_NETWORKS = [
     name: "YouTube",
     url: "https://www.youtube.com/@jose.gomez14",
     icon: IconBrandYoutube,
+  },
+  {
+    name: "Web Page",
+    url: "https://www.josego.me/",
+    icon: IconWorld,
   },
 ];

@@ -38,25 +38,26 @@ export const LANGUAGES = [
 export const PROGRAMMING_LANGUAGES = [
   {
     title: "JavaScript",
-    progress: 100,
+    progress: 95,
   },
   {
     title: "TypeScript",
-    progress: 80,
+    progress: 70,
   },
   {
     title: "Python",
-    progress: 60,
+    progress: 70,
   },
   {
     title: "Java",
-    progress: 40,
+    progress: 50,
   },
 ];
 
 export const EXTRA_SKILLS = [
-  [{ title: "React" }, { title: "Next.js" }, { title: "Gatsby" }],
+  [{ title: "React" }, { title: "Next.js" }, { title: "Astro" }],
+  [{ title: "Vercel" }, { title: "Figma" }, { title: "Tailwind CSS" }],
   [{ title: "Node.js" }, { title: "Express" }, { title: "Nest.js" }],
-  [{ title: "PostgreSQL" }, { title: "MySQL" }],
-  [{ title: "Docker" }, { title: "Kubernetes" }, { title: "AWS" }],
+  [{ title: "PostgreSQL" }, { title: "MySQL" }, { title: "Oracle" }],
+  [{ title: "Git" }, { title: "GitHub" }, { title: "GitHub Actions" }],
 ];

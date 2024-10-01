@@ -1,90 +1,100 @@
-import { IconCode } from "@tabler/icons-react";
+import {
+  IconAffiliate,
+  IconCode,
+  IconDatabaseCog,
+  IconDevices,
+  IconGitFork,
+} from "@tabler/icons-react";
 
 export const EDUCATION_EXPERIENCES = [
   {
-    company: "University",
+    company: "Universidad de Antioquia",
     rol: "Student",
-    title: "Computer Science",
+    title: "Systems Engineering",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.",
-    startDate: "2016-01-01",
-    endDate: "2020-01-01",
+      "I am currently pursuing a degree in Systems Engineering at the Universidad de Antioquia. This program is equipping me with a solid foundation in software development, system architecture, and analytical problem-solving. Through hands-on projects and coursework, I am gaining valuable skills in programming, algorithm design, and project management, preparing me for a successful career in technology.",
+    startDate: new Date(2021, 2),
+    endDate: "Actual",
   },
   {
-    company: "University",
+    company: "Universidad de Antioquia",
     rol: "Student",
-    title: "Computer Science",
+    title: "Diploma in SQL",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.",
-    startDate: "2016-01-01",
-    endDate: "2020-01-01",
+      " I completed a diploma in SQL at the Universidad de Antioquia, which deepened my understanding of database management and data manipulation. This program provided me with practical experience in writing complex queries, optimizing database performance, and ensuring data integrity. My skills in SQL enable me to efficiently manage and analyze data, which is essential for any development project.",
+    startDate: new Date(2023, 5),
+    endDate: new Date(2023, 10),
   },
   {
-    company: "University",
+    company: "GitHub",
     rol: "Student",
-    title: "Computer Science",
+    title: "GitHub Foundations Certification",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.",
-    startDate: "2016-01-01",
-    endDate: "2020-01-01",
+      "I earned the GitHub Foundations certification, which has enhanced my understanding of version control and collaborative development practices. This certification taught me how to effectively use Git and GitHub for managing projects, tracking changes, and collaborating with teams. It has been instrumental in improving my workflow and ensuring code quality in my projects.",
+    startDate: new Date(2024, 6),
+    endDate: new Date(2024, 6),
   },
 ];
 
 export const KNOWLAGES = [
   {
-    title: "React",
+    title: "Web Development",
     description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      "I have a strong foundation in web development, with expertise in front-end and back-end technologies",
+    icon: IconDevices,
+  },
+  {
+    title: "Programming",
+    description:
+      "I am proficient in several programming languages, including JavaScript, Python, and Java",
     icon: IconCode,
   },
   {
-    title: "Next.js",
+    title: "Database Management",
     description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      "I have experience working with databases, writing SQL queries, and optimizing database performance",
+    icon: IconDatabaseCog,
   },
   {
-    title: "Gatsby",
+    title: "Version Control",
     description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      "I am skilled in version control systems like Git and GitHub, enabling effective collaboration and code management",
+    icon: IconGitFork,
   },
   {
-    title: "React",
+    title: "Project Management",
     description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
-    icon: IconCode,
+      "I have experience managing projects, coordinating teams, and delivering high-quality software solutions",
+    icon: IconAffiliate,
   },
   {
-    title: "Next.js",
+    title: "Additional Skills",
     description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
-  },
-  {
-    title: "Gatsby",
-    description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      "I have additional soft skills, such as problem-solving, critical thinking, and communication, that enhance my ability to work effectively in a team environment",
+    link: "/skills",
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "Project 1",
+    title: "PLA UdeA",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna ",
-    image: "/images/image.png",
+      "This web application, developed for educational purposes, is part of the CodeF@ctory project at Universidad de Antioquia and simulates the curriculum management module.",
+    image: "/images/project1.png",
+    ctaLink: "https://pla-udea-front.vercel.app/",
+  },
+  {
+    title: "PortIQ Sectorial",
+    description:
+      "This web application manages information on exports and imports of products in Colombia, providing users with insights and data for effective trade decision-making.",
+    image: "/images/project2.png",
     ctaLink: "#",
   },
   {
-    title: "Project 2",
+    title: "FDC Landing Page",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna ",
-    image: "/images/image.png",
-    ctaLink: "#",
-  },
-  {
-    title: "Project 3",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna ",
-    image: "/images/image.png",
-    ctaLink: "#",
+      "This web page showcases the research group's work on fauna and flora, providing information about their projects, findings, and contributions to biodiversity studies.",
+    image: "/images/project3.png",
+    ctaLink: "https://fdc-web-project.web.app/",
   },
 ];
