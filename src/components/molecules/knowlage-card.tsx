@@ -40,7 +40,7 @@ const KnowlageCard = ({
   return (
     <article
       className={twMerge(
-        "flex flex-col items-center text-center gap-6 bg-white p-8",
+        "flex flex-col items-center justify-between text-center gap-6 bg-white p-8",
         className
       )}
     >

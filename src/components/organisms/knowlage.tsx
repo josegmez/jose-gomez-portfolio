@@ -24,10 +24,14 @@ I have a strong foundation in web development, focusing on both creating engagin
             key={`knowlage-${index}`}
             title={knowlage.title}
             description={knowlage.description}
-            icon={React.createElement(knowlage.icon || IconCode, {
-              size: 74,
-              strokeWidth: 1.5,
-            })}
+            href={knowlage.link}
+            icon={
+              !knowlage.link &&
+              React.createElement(knowlage.icon || IconCode, {
+                size: 74,
+                strokeWidth: 1.5,
+              })
+            }
           />
         ))}
       </div>
