@@ -1,6 +1,6 @@
 import SectionTitle from "@molecules/section-title";
 import ProjectCard from "@molecules/project-card";
-import { PROJECTS } from "@consts/knowlage";
+import { PROJECTS } from "@consts/knowledge";
 
 /**
  * This organism represents the projects section of the page.

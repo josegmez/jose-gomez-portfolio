@@ -1,5 +1,5 @@
 import HeroSection from "@organisms/hero";
-import KnowlageSection from "@organisms/knowlage";
+import KnowledgeSection from "@organisms/knowledge";
 import EducationSection from "@organisms/education";
 import ProjectsSection from "@organisms/projects";
 import LeftMenu from "@organisms/left-menu";
@@ -8,11 +8,11 @@ import Footer from "@organisms/footer";
 
 /**
  * This is the landing page of the application.
- * It shows the hero section, knowlage section, education section, projects section and footer.
+ * It shows the hero section, knowledge section, education section, projects section and footer.
  *
  * This page is composed by the following organisms:
  * - HeroSection
- * - KnowlageSection
+ * - KnowledgeSection
  * - EducationSection
  * - ProjectsSection
  * - Footer
@@ -27,7 +27,7 @@ export default function Home() {
       <LeftMenu />
       <div className="flex flex-col items-center gap-12">
         <HeroSection />
-        <KnowlageSection />
+        <KnowledgeSection />
         <EducationSection />
         <ProjectsSection />
         <Footer />

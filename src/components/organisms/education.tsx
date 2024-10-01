@@ -1,6 +1,6 @@
 import SectionTitle from "@molecules/section-title";
 import ExperienceCard from "@molecules/experience-card";
-import { EDUCATION_EXPERIENCES } from "@consts/knowlage";
+import { EDUCATION_EXPERIENCES } from "@consts/knowledge";
 
 /**
  * This organism represents the education section of the page.

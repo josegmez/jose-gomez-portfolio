@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { twMerge } from "tailwind-merge";
 
-interface KnowlageCardProps {
+interface KnowledgeCardProps {
   title: string;
   description: string;
   icon?: React.ReactNode;
@@ -13,22 +13,22 @@ interface KnowlageCardProps {
 }
 
 /**
- * This molecule component is a knowlage card that is used to display a professional skill.
+ * This molecule component is a knowledge card that is used to display a professional skill.
  * It accepts a title, description, and an optional icon and link. *
  *
- * @param {string} title - The title of the knowlage card.
- * @param {string} description - The description of the knowlage card.
- * @param {React.ReactNode} icon - The icon of the knowlage card.
- * @param {string} link - The link of the knowlage card.
+ * @param {string} title - The title of the knowledge card.
+ * @param {string} description - The description of the knowledge card.
+ * @param {React.ReactNode} icon - The icon of the knowledge card.
+ * @param {string} link - The link of the knowledge card.
  */
-const KnowlageCard = ({
+const KnowledgeCard = ({
   title,
   description,
   icon,
   link,
   href,
   className,
-}: KnowlageCardProps) => {
+}: KnowledgeCardProps) => {
   const customIcon =
     icon && React.isValidElement(icon)
       ? React.cloneElement(icon as React.ReactElement<IconProps>, {
@@ -56,4 +56,4 @@ const KnowlageCard = ({
   );
 };
 
-export default KnowlageCard;
+export default KnowledgeCard;
