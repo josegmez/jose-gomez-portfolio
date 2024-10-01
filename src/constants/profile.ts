@@ -11,7 +11,7 @@ export const PROFILE: {
   name: "Jose David Gómez",
   role: "Web Developer",
   contact: {
-    age: 24,
+    age: 20,
     email: "josdavi0304@gmail.com",
     freelance: "available",
     residence: "Medellín, Colombia",
@@ -32,6 +32,25 @@ export const LANGUAGES = [
   {
     title: "Italian",
     progress: 20,
+  },
+];
+
+export const PROGRAMMING_LANGUAGES = [
+  {
+    title: "JavaScript",
+    progress: 100,
+  },
+  {
+    title: "TypeScript",
+    progress: 80,
+  },
+  {
+    title: "Python",
+    progress: 60,
+  },
+  {
+    title: "Java",
+    progress: 40,
   },
 ];
 

@@ -1,6 +1,11 @@
 import ProfileCard from "@molecules/profile-card";
 import SkillsGroup from "@molecules/skills-grup";
-import { PROFILE, LANGUAGES, EXTRA_SKILLS } from "@consts/profile";
+import {
+  PROFILE,
+  LANGUAGES,
+  EXTRA_SKILLS,
+  PROGRAMMING_LANGUAGES,
+} from "@consts/profile";
 
 /**
  * This organism represents the left menu of the page.
@@ -18,6 +23,11 @@ const LeftMenu = () => {
           role={PROFILE.role}
         />
         <hr className="border-gray-200" />
+        <SkillsGroup
+          skillsGroup={PROGRAMMING_LANGUAGES.map((language) => [language])}
+          title="Programming Languages"
+          withProgress
+        />
         <SkillsGroup
           skillsGroup={LANGUAGES.map((language) => [language])}
           title="Languages"
