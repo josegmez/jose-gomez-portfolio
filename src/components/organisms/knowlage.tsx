@@ -1,41 +1,8 @@
+import React from "react";
 import { IconCode } from "@tabler/icons-react";
 import KnowlageCard from "@molecules/knowlage-card";
 import SectionTitle from "@molecules/section-title";
-
-const KNOWLAGES = [
-  {
-    title: "React",
-    description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
-    icon: <IconCode />,
-  },
-  {
-    title: "Next.js",
-    description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
-  },
-  {
-    title: "Gatsby",
-    description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
-  },
-  {
-    title: "React",
-    description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
-    icon: <IconCode />,
-  },
-  {
-    title: "Next.js",
-    description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
-  },
-  {
-    title: "Gatsby",
-    description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
-  },
-];
+import { KNOWLAGES } from "@consts/knowlage";
 
 /**
  * This organism represents the knowlage section of the page.
@@ -56,7 +23,10 @@ const KnowlageSection = () => {
             key={`knowlage-${index}`}
             title={knowlage.title}
             description={knowlage.description}
-            icon={knowlage.icon || <IconCode />}
+            icon={React.createElement(knowlage.icon || IconCode, {
+              size: 74,
+              strokeWidth: 1.5,
+            })}
           />
         ))}
       </div>

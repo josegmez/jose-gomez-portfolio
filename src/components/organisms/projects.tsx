@@ -1,29 +1,6 @@
 import SectionTitle from "@molecules/section-title";
 import ProjectCard from "@molecules/project-card";
-
-const PROJECTS = [
-  {
-    title: "Project 1",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna ",
-    image: "/images/image.png",
-    ctaLink: "#",
-  },
-  {
-    title: "Project 2",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna ",
-    image: "/images/image.png",
-    ctaLink: "#",
-  },
-  {
-    title: "Project 3",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna ",
-    image: "/images/image.png",
-    ctaLink: "#",
-  },
-];
+import { PROJECTS } from "@consts/knowlage";
 
 /**
  * This organism represents the projects section of the page.

@@ -1,29 +1,6 @@
 import ProfileCard from "@molecules/profile-card";
 import SkillsGroup from "@molecules/skills-grup";
-
-const LANGUAGES = [
-  {
-    title: "Spanish",
-    progress: 100,
-  },
-
-  {
-    title: "English",
-    progress: 60,
-  },
-
-  {
-    title: "Italian",
-    progress: 20,
-  },
-];
-
-const EXTRA_SKILLS = [
-  [{ title: "React" }, { title: "Next.js" }, { title: "Gatsby" }],
-  [{ title: "Node.js" }, { title: "Express" }, { title: "Nest.js" }],
-  [{ title: "PostgreSQL" }, { title: "MySQL" }],
-  [{ title: "Docker" }, { title: "Kubernetes" }, { title: "AWS" }],
-];
+import { PROFILE, LANGUAGES, EXTRA_SKILLS } from "@consts/profile";
 
 /**
  * This organism represents the left menu of the page.
@@ -36,14 +13,9 @@ const LeftMenu = () => {
     <aside className="min-h-screen">
       <div className="flex flex-col gap-6 bg-white p-11 sticky top-0">
         <ProfileCard
-          name="Jose David Gómez"
-          profile={{
-            age: 24,
-            email: "josdavi0304@gmail.com",
-            freelance: "available",
-            residence: "Medellín, Colombia",
-          }}
-          role="Web Developer"
+          name={PROFILE.name}
+          profile={PROFILE.contact}
+          role={PROFILE.role}
         />
         <hr className="border-gray-200" />
         <SkillsGroup

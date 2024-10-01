@@ -1,11 +1,12 @@
-import { IconLink } from "@tabler/icons-react";
+import { Icon, IconLink, IconProps } from "@tabler/icons-react";
 import LinkButton from "@atoms/link-button";
+import React, { ForwardRefExoticComponent } from "react";
 
 interface socialNetworkStackProps {
   socialNetworks: {
     name: string;
     url: string;
-    icon?: React.ReactNode;
+    icon?: ForwardRefExoticComponent<IconProps & React.RefAttributes<Icon>>;
   }[];
 }
 
@@ -24,7 +25,9 @@ const SocialNetworkStack = ({ socialNetworks }: socialNetworkStackProps) => {
           key={`social-network-${index}`}
           href={socialNetwork.url}
           isOnlyIcon
-          icon={socialNetwork.icon || <IconLink />}
+          icon={React.createElement(
+            (socialNetwork.icon as React.ElementType) || IconLink
+          )}
         >
           {socialNetwork.name}
         </LinkButton>

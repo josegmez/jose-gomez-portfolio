@@ -1,35 +1,6 @@
 import SectionTitle from "@molecules/section-title";
 import ExperienceCard from "@molecules/experience-card";
-
-const EDUCATION_EXPERIENCES = [
-  {
-    company: "University",
-    rol: "Student",
-    title: "Computer Science",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.",
-    startDate: "2016-01-01",
-    endDate: "2020-01-01",
-  },
-  {
-    company: "University",
-    rol: "Student",
-    title: "Computer Science",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.",
-    startDate: "2016-01-01",
-    endDate: "2020-01-01",
-  },
-  {
-    company: "University",
-    rol: "Student",
-    title: "Computer Science",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.",
-    startDate: "2016-01-01",
-    endDate: "2020-01-01",
-  },
-];
+import { EDUCATION_EXPERIENCES } from "@consts/knowlage";
 
 /**
  * This organism represents the education section of the page.
