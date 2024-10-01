@@ -15,7 +15,8 @@ const KnowlageSection = () => {
     <section className="flex flex-col items-center gap-12">
       <SectionTitle
         title="Knowlage"
-        description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum"
+        description="
+I have a strong foundation in web development, focusing on both creating engaging user experiences and ensuring efficient functionality."
       />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {KNOWLAGES.map((knowlage, index) => (

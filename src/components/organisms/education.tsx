@@ -13,7 +13,7 @@ const EducationSection = () => {
     <section className="flex flex-col items-center gap-12">
       <SectionTitle
         title="Education"
-        description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum"
+        description="I am a budding engineer, dedicated to building my knowledge every day."
       />
       <div className="flex flex-col bg-white p-9 gap-3">
         {EDUCATION_EXPERIENCES.map((experience, index) => (

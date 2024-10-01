@@ -13,7 +13,7 @@ const ProjectsSection = () => {
     <section className="flex flex-col items-center gap-12">
       <SectionTitle
         title="Portfolio"
-        description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum"
+        description="Here, you'll find a collection of my web projects that reflect my creativity and technical skills."
       />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {PROJECTS.map((project, index) => (

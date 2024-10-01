@@ -8,7 +8,7 @@ interface HeroContentProps {
 
 const HERO_TITLE = "I’m *Jose Gómez* Web Developer";
 const HERO_DESCRIPTION =
-  "I Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc lectus.";
+  "Programming is my passion, and I enjoy it both in work environments and as a hobby. I have a great curiosity for everything related to web development.";
 
 /**
  * This molecule represents the content of the hero section.
